@@ -2,17 +2,17 @@ public class Farbe {
     int rot;
     int gruen;
     int blau;
-
+    // Default-Konstruktor
     Farbe() {
         this(0);
         System.out.println("Default-Konstruktor aufgerufen!");
     }
-
+    // Konstruktor mit Grauwerten
     Farbe(int grauWert) {
         this(grauWert, grauWert, grauWert);
         System.out.println("Konstruktor mit Grauwerten aufgerufen!");
     }
-
+    // Konstruktor mit Farbwerten
     Farbe(int r, int g, int b) {
         System.out.println("Konstruktor mit Farbwerten aufgerufen!");
         rot = r;
